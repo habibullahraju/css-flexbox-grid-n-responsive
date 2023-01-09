@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/fc89e0e267.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+              nav a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            margin-right: 10px;
+            
+
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+        }
+        .form input{
+            margin-top: 10px;
+            padding: 10px 14px;
+            font-weight: 700;
+            font-size: 22px;
+
+        }
+        .form input[type="submit"]{
+            background-color: blueviolet;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+        }
+  
+    </style>
+</head>
+<body>
+    <header>
+     
+    <div>
+        <nav class="nav-bar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Deshbord</a>
+        </nav>
+    </div>
+       <div> <span><i class="fa-solid fa-user-plus"></i></span>
+        <span><i class="fa-regular fa-star"></i></span></div>
+    </header>
+<div class="form-container">
+    <form class="form">
+        <h1>Please Login</h1>
+        <input type="email" name="" id="" placeholder="Enter Your Email">
+        <input type="password" name="" id="" placeholder="Enter Your Password">
+        <input type="submit" value="Submit" >
+    </form>
+</div>
+</body>
+</html>
